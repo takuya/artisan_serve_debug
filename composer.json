@@ -3,6 +3,7 @@
     "description": "Orverride 'artisan serve' for debug config",
     "type": "library",
     "license": "GPL-3.0",
+    "version": "0.1",
     "authors": [
         {
             "name": "takuya",
