@@ -1,6 +1,6 @@
 #  Xdebug enabled laravel artisan serve 
 
-Xdebug cannto pass to ` artisan serve`  becaucse ` artisan serve` has no option.
+` artisan serve` can't accept Xdebug option.   becaucse ` artisan serve` has no way to pass `-d` options.
 This package add artisan command ` artisan serve:debug`.
 
  
