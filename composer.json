@@ -1,0 +1,34 @@
+{
+    "name": "takuya/artisan_serve_debug",
+    "description": "Orverride 'artisan serve' for debug config",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "takuya",
+            "email": "takuya.1st@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "takuya\\ArtisanOverride\\": "src/ArtisanOverride"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Illuminate\\": "vendor/laravel/src/Illuminate/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Takuya\\ArtisanOverride\\ServiceProvider"
+            ]
+        }
+    },
+
+
+    "require-dev": {
+        "laravel/framework": ">=5.5"
+    }
+}
