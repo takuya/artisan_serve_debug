@@ -8,7 +8,7 @@ This package add artisan command ` artisan serve:debug`.
 ## Installation 
 ```
 ./composer.phar  config repositories.github-takuya vcs  https://github.com/takuya/artisan_serve_debug
-./composer.phar require -n takuya/artisan_serve_debug:dev-main
+./composer.phar require --dev -n takuya/artisan_serve_debug:dev-main
 ```
 
 ## start builtin-WebServer with debug
