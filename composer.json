@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Takuya\\ArtisanOverride\\ServiceProvider"
+                "takuya\\ArtisanOverride\\ServiceProvider"
             ]
         }
     },
