@@ -7,7 +7,7 @@ This package add artisan command ` artisan serve:debug`.
 
 ## Installation 
 ```
-./composer.phar  config repositories.github-takuya vcs  https://github.com/takuya/artisan_serve_debug
+./composer.phar config repositories.github-takuya vcs  https://github.com/takuya/artisan_serve_debug
 ./composer.phar require --dev -n takuya/artisan_serve_debug:dev-main
 ```
 
@@ -20,7 +20,7 @@ php artisan serve:debug
 ## Another Way to enable xdebug 
 
 This package shipped with ` artisan serve:use_ini` command.
-This command enable to load addtional `.ini` at project root.
+This command enable to load addtional `.ini` which placed at project root.
 
 ```
 cd $laravel_procject
